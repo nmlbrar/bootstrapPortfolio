@@ -1105,7 +1105,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #18bc9c;
+  color: #d6c9ba;
   text-decoration: underline;
 }
 a:focus {
@@ -1384,7 +1384,7 @@ a.bg-primary:focus {
   background-color: #1a242f;
 }
 .bg-success {
-  background-color: #18bc9c;
+  background-color: #d6c9ba;
 }
 a.bg-success:hover,
 a.bg-success:focus {
