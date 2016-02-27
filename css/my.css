@@ -267,8 +267,13 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
     position: absolute;
     z-index: 0;
     width: 100%;
+<<<<<<< HEAD
     height: 688px;
     padding-top: 60px;
+=======
+    height: 628px;
+    margin-top: 60px;
+>>>>>>> 73f9e232fa62187d4e685b8857441e44293a3ccb
     background-image: url(../img/headerImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -276,6 +281,7 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
 }
 
 .headerPort {
+<<<<<<< HEAD
     position: absolute;
     top: 50;
     left: 0;
@@ -283,6 +289,14 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
     height: 628px; 
     width: 2000px;
     height: auto;
+=======
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+>>>>>>> 73f9e232fa62187d4e685b8857441e44293a3ccb
 }
 
 .hdn {
@@ -295,6 +309,7 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
     width: 100%;
     height: 688px;
 }
+<<<<<<< HEAD
 
 .mycontainer {
     display: block;
@@ -302,3 +317,5 @@ to { box-shadow: 0 0 100px 15px #F4F6AD; }
     height: 688px;
 }
 
+=======
+>>>>>>> 73f9e232fa62187d4e685b8857441e44293a3ccb
