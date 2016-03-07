@@ -1,0 +1,164 @@
+.text-centered {
+    text-align: center;
+}
+
+.github {
+    padding-top: 25px;  
+}
+
+.about-font {
+    font-weight: bold;
+}
+
+.github-picture {
+    height: 50px; 
+}
+
+
+/* CSS Document */
+
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body
+{
+	background: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+#wrap
+{
+	width: 100%;
+	height: 20%;
+	position: relative;
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+   
+}
+
+#lightings
+{
+	bottom: -60px;
+	position: absolute;
+	width: 100%;
+}
+
+#one
+{
+    z-index: -500;
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	margin: auto;
+
+}
+
+#one
+{
+	/*animation*/
+	-webkit-animation: one 5s ease-in-out infinite alternate;
+	-moz-animation: one 5s ease-in-out infinite alternate;
+	-ms-animation: one 5s ease-in-out infinite alternate;
+	-o-animation: one 5s ease-in-out infinite alternate;
+	animation: one 5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+one { from {
+-webkit-box-shadow: 0 0 250px 20px #473C78;
+}
+
+to { -webkit-box-shadow: 0 0 100px 15px #F72A3B; }
+}
+@-moz-keyframes 
+one { from {
+-moz-box-shadow: 0 0 250px 20px #473C78;
+}
+
+to { -moz-box-shadow: 0 0 100px 15px #F72A3B; }
+}
+@-o-keyframes 
+one { from {
+-o-box-shadow: 0 0 250px 20px #473C78;
+}
+
+to { -o-box-shadow: 0 0 100px 15px #F72A3B; }
+}
+
+@keyframes 
+one { from {
+box-shadow: 0 0 250px 20px #F72A3B;
+}
+
+to {box-shadow: 0 0 100px 15px #473C78; }
+}
+
+
+
+#contact {
+    margin-bottom: -200px;
+}
+
+
+
+
+.headerImageCont {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 688px;
+    padding-top: 60px;
+    background-image: url(../img/headerImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.headerPort {
+    position: absolute;
+    top: 50;
+    left: 0;
+    display: block;
+    height: 628px; 
+    width: 2000px;
+    height: auto;
+}
+
+.hdn {
+    display: hidden !important;
+    visibility: none !important;
+}
+
+.adjustHeader {
+    display: block;
+    width: 100%;
+    height: 688px;
+}
+
+.mycontainer {
+    display: block;
+    width: 100%;
+    height: 688px;
+}
+
+
+.top-intro {
+    margin-top: 350px;
+    color: grey;
+    text-shadow: 1px 1px 1px #000;
+    position: absolute;
+    left: 590px;
+}
+
+.leftCon {
+    width: 60%
+    
+}
+
+.rightCon {
+   width: 40%;
+    
+}
