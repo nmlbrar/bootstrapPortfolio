@@ -1105,7 +1105,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #18bc9c;
+  color: #d6c9ba;
   text-decoration: underline;
 }
 a:focus {
@@ -1384,7 +1384,7 @@ a.bg-primary:focus {
   background-color: #1a242f;
 }
 .bg-success {
-  background-color: #18bc9c;
+  background-color: #d6c9ba;
 }
 a.bg-success:hover,
 a.bg-success:focus {
@@ -1595,6 +1595,15 @@ pre code {
   .container {
     width: 750px;
   }
+    .leftCon {
+        float: none;
+        margin: auto;
+    }
+    
+    .rightCon {
+        float: none;
+        margin: auto;
+    }
 }
 @media (min-width: 992px) {
   .container {
@@ -1605,6 +1614,23 @@ pre code {
   .container {
     width: 1170px;
   }
+
+    .leftCon {
+        width: 750;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .rightCon {
+        width: 750;
+        float: right;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 .container-fluid {
   margin-right: auto;
